@@ -16,7 +16,7 @@ source /files/00-config
 ########################################
 # Enable SPI in armbianEnv             #
 ########################################
-
+echo "overlays=spi-spidev1"
 echo "overlays=spi-spidev1" >> "${ARMBIAN_CONFIG_TXT_FILE}"
 
 ########################################
